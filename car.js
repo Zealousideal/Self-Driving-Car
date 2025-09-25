@@ -31,7 +31,7 @@ class Car {
       this.speed = this.maxSpeed;
     }
 
-    // This is implementing the reverse speed. Since we do not want the car to go into reverse very faster we cap it at maxSpeed / 2
+    // This is implementing the reverse max speed. Since we do not want the car to go into reverse very faster we cap it at maxSpeed / 2
     if (this.speed < -this.maxSpeed / 2) {
       this.speed = -this.maxSpeed / 2;
     }
@@ -41,6 +41,7 @@ class Car {
       this.speed -= this.friction;
     }
 
+    // This is for the reverse friction to give the pull of forward pulling in case of backwoard moving
     if (this.speed < 0) {
       this.speed += this.friction;
     }
