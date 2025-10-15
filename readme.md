@@ -3,7 +3,7 @@
 A browser-based neural network simulation that learns how to drive — built with pure JavaScript, no frameworks, and lots of math.
 
 
-![Self_Driving_Car](screenshot-working.png)
+![Self_Driving_Car](Assets/screenshot-working.png)
 
 <p align="center"><img src="https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=for-the-badge" alt="JavaScript"/> <img src="https://img.shields.io/badge/HTML5-Canvas-orange?style=for-the-badge" alt="HTML5 Canvas"/> </p>
 🧠 Overview
