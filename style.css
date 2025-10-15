@@ -2,7 +2,26 @@ body {
     margin: 0;
     background-color: gray;
     overflow: hidden;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#verticleButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 7px 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+button:hover{
+    background-color: blue;
 }
 
 #carCanvas{
